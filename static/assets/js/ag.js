@@ -18,11 +18,6 @@
 
 
 /*apps*/
-function chatGPT() {
-  agU = Ultraviolet.codec.xor.encode('https://chat.shuttle.rip');
-  sessionStorage.setItem('agUrl', agU);
-  location.href = '/lessons';
-}
 function chess() {
   agU = Ultraviolet.codec.xor.encode('https://chess.com');
   sessionStorage.setItem('agUrl', agU);
@@ -77,6 +72,11 @@ function y8() {
 /*games*/
 function onevone() {
   agU = Ultraviolet.codec.xor.encode('https://1v1.lol');
+  sessionStorage.setItem('agUrl', agU);
+  location.href = '/lessons';
+}
+function kirka() {
+  agU = Ultraviolet.codec.xor.encode('https://kirka.io');
   sessionStorage.setItem('agUrl', agU);
   location.href = '/lessons';
 }
